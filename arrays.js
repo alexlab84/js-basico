@@ -14,9 +14,29 @@ console.log(frutas.length);
 let masFrutas = frutas.push("Sandia");
 console.log(frutas);
 
+let numArray = [1,2,3,4,5]
+
+function newNum(){
+  numArray.push(6,7)
+  console.log(numArray)
+}
+
+newNum()
+
 //.pop elimina el ultimo elemento del array
 
 let ultimo = frutas.pop()
+
+
+
+//let array = [1,2,3,4,5]
+console.log(array)
+
+// Aplicamos .pop()
+let popArray = array.pop()
+
+//Revisamos. El output debe de ser [1,2,3,4]
+console.log(array)
 
 //.unshift agrega un elemento al principio del array
 
@@ -26,6 +46,15 @@ let longitud = frutas.unshift("Chirimoya")
 
 
 let borrarFruta = frutas.shift()
+
+let array = [1,2,3,4,5]
+console.log(array)
+
+// Aplicamos .shift()
+let shiftArray = array.shift()
+
+//Revisamos. El output debe de ser [2,3,4,5]
+console.log(array)
 
 
 // .indexOf sirve para encontrar el indice en un array
