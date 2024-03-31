@@ -17,6 +17,7 @@ let numero = 1;
 let resultado = numero === 1 ? "Soy un uno" : "No soy un uno"  
 console.log(resultado) */
 
+// Juego piedra papel o tijera
 
 let piedra = "piedra" || "Piedra" || "PIEDRA"; 
 let papel = "papel" || "Papel" || "PAPEL";
