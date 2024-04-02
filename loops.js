@@ -58,3 +58,73 @@ export function solution(estudiantes, deathCount, nuevo) {
     }
     return estudiantes;
   }
+
+/* let list =['eat', 'sleep', 'code', 'repeat'] */
+
+for (let i = 0; i < list.length; i++) {
+  console.log(list[i])
+  
+}
+
+// Bucle forEach
+
+let list = ['eat', 'sleep', 'code', 'repeat']
+
+list.forEach(item => {
+  console.log(item)
+});
+
+// Bucle for of (Se utiliza solo con objetos iterables(arrays y string), es decir, listas)
+
+let cesta = ['Manzana', 'Pera', 'Naranja', 'Uva']
+
+for (fruta of cesta) {
+  console.log(fruta)
+}
+
+// Bucle for in (Se utiliza con objetos numerables(objetos: estructura de datos con propiedades y valores))
+
+
+
+let listaDeCompras = {
+  manzana: 5,
+  pera: 3,
+  naranja: 2,
+  uva: 1
+}
+
+for (fruta in listaDeCompras) {
+  console.log(fruta)
+}
+
+for (fruta in listaDeCompras) {
+  console.log(`${fruta} : ${listaDeCompras[fruta]}`);
+}
+
+// Para iterar arrays y strings utilizamos bucle for of 
+// y para iterar objetos (propiedades y valores) utilizamos
+// bucle for in.
+
+// Bucle while
+
+let contador = 0;
+
+while (contador < 10) {
+  console.log(contador)
+  contador++;
+}
+
+// Bucle do while: Primero se pone el codigo a ejecutar y 
+// despues la condicion. El codigo se ejecuta por lo menos una vez.
+
+let counter = 0;
+
+do {
+  console.log(counter)
+  counter++;
+} while (counter < 10)
+
+
+
+
+
