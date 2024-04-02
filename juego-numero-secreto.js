@@ -13,3 +13,27 @@ if(numeroJugador === numeroSecreto) {
     console.log('El numero es muy alto')
 }
 
+
+// Operador ternario
+
+/* let mensaje;
+
+const edad = 20;
+
+if (edad >= 18) {
+    mensaje = "Es mayor de edad"
+} else {
+    mensaje = "No es mayor de edad"
+}
+
+console.log(mensaje); */
+
+
+//condicion ? true : false
+
+
+const edad = 20;
+
+const mensaje = edad >= 18 ? "Es mayor de edad" : "No es mayor de edad"
+
+console.log(mensaje);
