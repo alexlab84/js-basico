@@ -37,3 +37,26 @@ function juegoPiedraPapelTijera(jugador, pc) {
             break;
     }
 }
+
+let expr = 'Papayas'
+
+switch (expr) {
+    case 'Naranjas': 
+        console.log('Las naranjas cuestan 5 euros')    
+        break;
+    case 'Manzanas':
+        console.log('Las manzanas cuestan 3 euros')
+        break;
+    case 'Platanos':
+        console.log('Los platanos cuestan 4 euros')
+        break;
+    case 'Mangos':  //Esto es un caso compartido
+    case 'Papayas':
+        console.log('Los mangos y las papayas cuestan 8 euros')
+        break;
+    default:
+        console.log(`No contamos con ${expr}`)
+        
+}
+
+console.log('¿Deseas algo más?')
